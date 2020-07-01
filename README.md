@@ -11,21 +11,21 @@ $ git clone https://github.com/nasutaro211/railsvue.git .
 $ docker-compose build
 ```
 
-### 2. yarn install
+### 3. yarn install
 ```
 $ docker-compose run app yarn install
 ```
 
-### 3. docker-compose up
+### 4. docker-compose up
 ```
 $ docker-compose up
 ```
 
-### 3. http://localhost:3000 を叩く
+### 5. http://localhost:3000 を叩く
 
-### 4. Sample Pageが出てきたらOK
+### 6. Sample Pageが出てきたらOK
 
-### 5. remoteリポジトリを変更
+### 7. remoteリポジトリを変更
 ```
 $ git remote set-url origin https://github.com/USERNAME/REPOSITORY.git
 $ git remote -v
